@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    align-items: center; /* 水平居中子元素 */
+    min-height: 100vh; /* 最小高度设置为视口高度 */
+    margin: 0; /* 移除默认的 margin */
+	}
+
+.a{text-align: center;
+	color: pink;		/*注释*/
+	font-size: 30px;}
+.b{color: limegreen;
+	font-size:20px;
+	text-align: center;
+	background-color: 0;}
+.c{background: #00D1D7;
+	text-align: center;
+	font-size: 80px;}
+.d{color: aqua;}
+.choose-link{color: #0110B6;
+			font-size:50px;}
+.center{text-align: center;}
+.background-color{background-color:#ED33FF}
+
+.wzjz{text-align: center;}
+.table-center{
+    margin-left: auto;
+    margin-right: auto;}
+
+#one{background-image:url("QQ-Photo/IMG_20230309_173837.jpg");
+	background-size: cover;
+	background-position: center;
+/*	background:#00BFFF;*/
+	font-size: 30px;
+	text-align: center;
+	color: #FF00FF;
+	padding: 5px;
+	max-width: 1300px; /* 最大宽度 */
+    width: 100%; /* 宽度为容器宽度 */
+	height: 250px;
+    margin: auto; /* 上下左右自动外边距 */
+	}
+#two{display: flex; /* 设置#two为flex容器 */
+    justify-content: space-between; /* 水平方向上，子元素间距均匀分布 */
+	background-color:#0096FF;
+	max-width: 1300px; /* 最大宽度 */
+    width: 100%; /* 宽度为容器宽度 */
+	height: 650px;
+	margin: auto; /* 上下左右自动外边距 */
+	}
+#three {
+    display: flex;            /* 启用 Flexbox */
+    flex-direction: column;   /* 子项目垂直排列 */
+    justify-content: space-between; /* 子项目之间等距排列 */
+    align-items: center;      /* 子项目在交叉轴上居中对齐 */
+    background-image: url("QQ-Photo/IMG_20230414_172933.jpg");
+    float: right;
+    padding: 5px;
+    width: 100px;
+    height: 650px;
+}
+
+/*
+#three{line-height: 80px;
+	background-image:url("QQ-Photo/IMG_20230414_172933.jpg");
+	background:#90EE90;	/* 
+	width: 100px;
+	height: 650px;
+	float: left;
+	padding: 5px;}
+*/
+
+#four{background-image:url("jpg/星空-紫.jpg");
+	background-size:cover;
+/*	background:#FF1493;*/
+	float:none;
+	margin-left: 0px;
+	padding: 5px;
+	width: 1100px;
+	height: 650px;}
+#five{line-height: 80px;
+	background-image:url("QQ-Photo/IMG_20230414_172933.jpg");
+/*	background:#27D1FF;*/
+	float: right;
+	padding: 5px;
+	width: 100px;
+	height: 650px;}
+#six{background:#00FF7F;
+	width: 50px;
+	height: 50px;}
+
+
